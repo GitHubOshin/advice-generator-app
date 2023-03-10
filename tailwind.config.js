@@ -1,7 +1,7 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    screen: { mobile: '375px', desktop: '1440px' },
+    screens: { mobile: '375px', desktop: '1440px' },
     fontFamily: {
       manrope: ['Manrope']
     },
