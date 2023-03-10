@@ -13,7 +13,7 @@ function App() {
   }
 
   return (
-    <div className="bg-bgWeb font-manrope w-screen h-screen flex items-center justify-center">
+    <div className="bg-bgWeb font-manrope mobile:p-5 w-screen h-screen flex items-center justify-center">
       <div className="relative bg-bgAdvice w-full h-full max-w-[539px] max-h-[332px] min-w-[343px] min-h-[315px] rounded-xl flex flex-col items-center justify-evenly p-[40px]">
         <h4 className="text-lightgreen text-[10px] tracking-[4px]">
           ADVICE #{quote?.id}
@@ -28,7 +28,7 @@ function App() {
         <img alt="" src="images/pattern-divider-desktop.svg" />
         <button
           onClick={getQuotes}
-          className="absolute bottom-[-32px] bg-lightgreen w-[64px] h-[64px] rounded-full flex justify-center items-center"
+          className="absolute bottom-[-32px] bg-lightgreen hover:shadow-[0px_0px_50px_-5px_lightgreen] w-[64px] h-[64px] rounded-full flex justify-center items-center"
         >
           <img alt="" src="images/icon-dice.svg" />
         </button>
@@ -38,3 +38,4 @@ function App() {
 }
 
 export default App
+
